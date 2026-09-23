@@ -4,9 +4,9 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int məbləğ = sc.nextInt();
-        int faiz = sc.nextInt();
-        int nəticə = (məbləğ * faiz) / 100;
+        double məbləğ = sc.nextInt();
+        double faiz = sc.nextInt();
+        double nəticə = (məbləğ * faiz) / 100;
         System.out.println("Faiz:" + nəticə);
     }
 }
